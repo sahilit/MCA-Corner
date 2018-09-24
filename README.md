@@ -1,2 +1,2 @@
-# MCA-Corner-PWA-
+# MCA-Corner
 Progressive Web App
