@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="It is a Progressive Web App.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#34495e">
+  <meta name="msapplication-TileColor" content="#3498db">
+  <title>MCA Corner - Home</title>
+  
+  <!-- PWA -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
+  <link rel="manifest" href="site.webmanifest">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+  <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCCNIAddz5ezYXXkfUE0lgwRKToeoImDyw",
+        authDomain: "mca-corner.firebaseapp.com",
+        databaseURL: "https://mca-corner.firebaseio.com",
+        projectId: "mca-corner",
+        storageBucket: "mca-corner.appspot.com",
+        messagingSenderId: "925189068986"
+      };
+      firebase.initializeApp(config);
+  </script>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse" data-spy="affix">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" name="Menu" value="menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">MCA Corner</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">JNU<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#part-one">Question Paper</a></li>
+          <li><a href="#click2">Cut-off</a></li>
+          </ul>
+        </li>
+        <li><a href="#part-two">BHU</a></li>
+        <li><a href="#part-three">MAH-MCA-CET</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <div class="container" id="part-one">
+      <div id="userDetail"></div>
+      <h1>JNU</h1>
+      <div class="row">
+      <div class="col-sm-9">
+        <h2>Question Paper</h2>
+        <div class="row">
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCY3hmcGxpdG1ET3M" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2016 Set-A</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCQ0xndi1XV0lTdlU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2016 Set-B</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCTU02cVJOYXBmVlU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2016 Set-C</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCWmJIRzAwVWI5VHM" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2016 Set-D</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCZzlqOFhLZ3ZudzQ" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2015</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCaVAzQ3ZtR0FlUGM" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2014</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCekhXRWd0ZmFUbUU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2013</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCS0J3SC1VTjNvcFk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2012</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="#" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2011</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCTWNrb2NyVUh4Z0E" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2010</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCRk9FeXcxLUZ0X1k" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2009</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCRTMzSlQ5RzZTOUE" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2008</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCaXZwRFlBR0ZJdFk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2007</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCYk8zR2RpTWlVYkU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2006</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCejA1eWNibkloYTg" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2005</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCanJnRVNseHZHZEE" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2004</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCaFhrbGhtX0FRMEk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2003</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCblR5bjZoYjV0aTQ" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2002</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+         <a href="http://fkrt.it/1mTiK!NNNN" target="_blank">
+        <div>
+          <img src="img/banner1.jpeg" alt="banner1" width="100%"/>
+        </div>
+        </a>
+         <a href="http://fkrt.it/1aTfc!NNNN" target="_blank">
+        <div>
+          <img src="img/banner2.jpeg" alt="banner2" width="100%"/>
+        </div>
+        </a>
+         <a href="http://fkrt.it/1SdkQ!NNNN" target="_blank">
+        <div>
+          <img src="img/banner3.jpeg" alt="banner3" width="100%"/>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-9" id="click2">
+        <h2>Cut-Off</h2>
+        <div class="row">
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCbnhmREE0dkxBckk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Cut-off 2013-14</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCczZfYVNaV0E5SVU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Cut-off 2014-15</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCZFA1QVFZbzVNTUU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Cut-off 2015-16</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <a href="http://fkrt.it/1al4c!NNNN" target="_blank">
+        <div>
+          <img src="img/banner4.jpeg" alt="banner4" width="100%"/>
+        </div>
+        </a>
+      </div>
+      </div>
+    </div>
+    <div class="container" id="part-two">
+      <h1>BHU</h1>
+      <div class="row">
+      <div class="col-sm-9">
+        <h2>Question Paper</h2>
+        <div class="row">
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCcG9kYUQxa3EwQUE" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2016</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCUjRjR3U2ZFNjVFk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2016 (Reconduct)</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCRVd3eWFPSE0zbzQ" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2015</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCWlFzTU5GWVBmeUk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2014</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCOVhNMVZZRXc3djg" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2013</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCOENuSDI2WVpBMEk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2012</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCSUZvTXdFN19CaTg" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p>Question Paper 2011</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCckFKUmUxY0VCUFk" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2010 Set-1</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCdm91UTFfVm8zYWc" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2010 Set-2</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwxj9z2DUPWCREk0eHhZZ3hOUFU" target="_blank">
+              <div>
+                <img src="img/pdf.png" alt="pdf">
+                <p class="mar">Question Paper 2010 Set-3</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+         <a href="http://fkrt.it/GIQGITuuuN" target="_blank">
+        <div>
+          <img src="img/banner5.jpeg" alt="banner5" width="100%"/>
+        </div>
+        </a>
+         <a href="http://fkrt.it/G!mCITuuuN" target="_blank">
+        <div>
+          <img src="img/banner6.jpeg" alt="banner6" width="100%"/>
+        </div>
+        </a>
+      </div>
+      </div>
+    </div>
+    <div id="part-three">
+      <h1>MAH-MCA-CET</h1>
+      <h2>Coming Soon</h2>
+    </div>
+    <div id="part-four" class="container">
+      <h1>Suggested Books</h1>
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="http://fkrt.it/1mTiK!NNNN" target="_blank">
+            <div>
+              <img src="img/banner1.jpeg" alt="banner1" width="100%"/>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://fkrt.it/1SdkQ!NNNN" target="_blank">
+            <div>
+              <img src="img/banner3.jpeg" alt="banner3" width="100%"/>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://fkrt.it/GIQGITuuuN" target="_blank">
+            <div>
+              <img src="img/banner5.jpeg" alt="banner5" width="100%"/>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://fkrt.it/G!mCITuuuN" target="_blank">
+            <div>
+              <img src="img/banner6.jpeg" alt="banner6" width="100%"/>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script>
+    let userDetail = document.getElementById('userDetail');
+
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        userDetail.innerHTML = '<h1>Hi ' + user.displayName + '</h1>';
+      } else {
+        window.location.href = "login.html";
+      }
+    });
+  </script>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+      .then(function() {
+        console.log('Service Worker Registered');
+      });
+    }
+  </script>
+  
+  <script>
+    window.addEventListener('appinstalled', evt => {
+       console.log("The app was Installed"); 
+    });
+    
+    window.addEventListener('beforeinstallprompt', evt => {
+       evt.userChoice.then(choice => {
+          var message = choice.outcome === 'dismissed' ? 'User cancelled' : 'User installed';
+          console.log(message);
+       }); 
+    });
+  </script>
+</body>
+</html>
