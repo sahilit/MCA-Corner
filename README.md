@@ -2,7 +2,6 @@
 Progressive Web App.
 
 App Link: https://sahilit.github.io/MCA-Corner/index.html
-Github Link: https://github.com/sahilit/MCA-Corner
 
 ## How to Use
 On loading this website on mobile browser it will prompt a popup for permission to "Add to Home Screen".
